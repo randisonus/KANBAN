@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    
+    <div class="hero">
+      <div class="wrapper">
+        <ul class="list">
+            <li class="list__caption">To Do</li>
+            <li class="list__caption">Doing</li>
+            <li class="list__caption">Done</li>
+            <li class="list__cell">
+              <div class="list__card" draggable="true">
+                <div class="list__card-header" contenteditable="true" >
+                  Введите название
+                </div>
+                <div class="list__card-executor" contenteditable="true">
+                  Введите исполнителя
+                </div>
+                <div class="list__card-info">
+                  <textarea class="text" placeholder="Введите задачу"></textarea>
+                </div>
+              </div>
+            </li>
+            <li class="list__cell"></li>
+            <li class="list__cell"></li>
+        </ul>
+      </div>
+      <button class="add">Добавить карточку</div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.list__caption {
+  width: calc(33% - 40px);
+  margin: 20px;
+  list-style-type: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 34px;
+  text-align: center;
+}
+
+.list__cell {
+  width: calc(33% - 40px);
+  margin: 0 20px 20px 0;
+  /* min-width: 200px; */
+  min-height: 200px;
+  /* max-width: 150px; */
+  list-style-type: none;
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f0f2f5;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.list__card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100%;
+  /* cursor: all-scroll; */
+}
+
+.list__card-header {
+  font-weight: bold;
+  padding: 12px 20px;
+  background-color: rgb(184, 184, 184);
+  color: rgb(0, 0, 0);
+}
+
+.list__card-executor {
+  font-weight: bold;
+  padding: 12px 20px;
+  background-color: rgb(214, 214, 214);
+}
+
+.list__card-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background-color: #d1d8e2;
+}
+
+.text {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  outline: none;
+  min-height: 100px;
+  font-size: 16px;
+}
+
+.add {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #4CAF50; /* Green */
+  /* border: none; */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
